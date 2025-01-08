@@ -5,7 +5,7 @@
 }
 #hero{
 
-    background: linear-gradient(0.00deg, rgb(9, 9, 9) 2.884%, rgba(16, 16, 16, 0) 101.034%),url("../assets/hero-bg.png");;
+    background: linear-gradient(0.00deg, rgb(9, 9, 9) 2.884%, rgba(16, 16, 16, 0) 101.034%),url("../assets/hero-bg.png");
     height: 790px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -150,4 +150,71 @@
         line-height: 35px;
         letter-spacing: 0%;
         text-align: center;
+}
+#about-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background: linear-gradient(360deg, rgb(175, 84, 84), rgb(200, 132, 132)), url("../assets/social-bg.png"); */
+
+}
+#about #about-container .half-img{
+    width: 50%;
+}
+
+#about #about-container .half-img img{
+    width: 100%;
+}
+#about-container .half-text{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.about-text .about-des{
+    color: rgb(16, 16, 16);
+        font-family: Work Sans;
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 64px;
+        letter-spacing: 0%;
+        text-align: center;
+        margin: 8px 0;
+}
+.about-sub{
+    opacity: 0.6;
+    color: rgb(16, 16, 16);
+        font-family: Work Sans;
+        font-size: 17px;
+        font-weight: 500;
+        line-height: 15px;
+        letter-spacing: 0%;
+        text-align: left;
+    margin: 24px 0;
+}
+.h3{
+    color: rgb(16, 16, 16);
+        font-family: Work Sans;
+        font-size: 32px;
+        font-weight: 600;
+        line-height: 38px;
+        letter-spacing: 0%;
+        text-align: center;
+        opacity: 0.7;
+        margin: 70px;
+}
+.icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.icons img{
+    width: 30px;
+    margin-left: 20px;
+margin-right: 20px;
+margin-bottom: 10px;
 }
